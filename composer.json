@@ -1,0 +1,8 @@
+{
+    "name": "mathiasgrimm/x",
+    "autoload": {
+        "psr-0" : {
+            "mathiasgrimm\\x" : "src"
+        }
+    }
+}
