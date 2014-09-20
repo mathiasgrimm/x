@@ -142,7 +142,7 @@ class LoginController
         }
         
         // X
-        // xd($_SESSION);
+        xd($_SESSION);
     }
 ?>
 ```
