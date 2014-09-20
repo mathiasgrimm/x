@@ -48,7 +48,7 @@ xd($_REQUEST, $_POST);
 
 ```
 
-Example
+Output
 -------
 ```php
 $aLang = array(
@@ -85,3 +85,66 @@ Array
     [2] => JavaScript
 )
 </pre>
+
+
+Live Environment Debug 
+======================
+In general, live environments are hard to debug, however X makes it less terrible.
+
+Lets say you want to debug the Login page of your website while not displaying anything different for a million public users
+that are currently using your site.
+
+In general you need a way to say that you are in a debug environment somehow. Either by having an alternative entry point or a url switch.
+In this case I will assume you have 2 entry points. index.php and index2.php
+index2.php will allow debug verbosity
+
+
+```php
+<?php
+// index.php
+define('IS_DEBUG', false);
+
+// initialize X
+new mathiasgrimm\x\X(IS_DEBUG);
+
+// ...
+
+?>
+
+<?php
+// index2.php
+define('IS_DEBUG', true);
+
+// initialize X
+new mathiasgrimm\x\X(IS_DEBUG);
+
+// ...
+
+?>
+
+
+<?php
+// LoginController.php
+class LoginController
+// ...
+
+    public function loginAction($username, $password)
+    {
+        // common php
+        if (IS_DEBUG) {
+            print_r($_SESSION);
+            die();
+        }
+        
+        // X
+        // xd($_SESSION);
+    }
+?>
+```
+
+The X functions will be always available along the code but they will echo information just when debug is enabled.
+
+
+
+
+
