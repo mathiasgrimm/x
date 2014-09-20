@@ -149,6 +149,23 @@ class LoginController
 
 The X functions will be always available along the code but they will echo information just when debug is enabled.
 
+Installation with composer
+==========================
+
+add the following to your project composer.json
+
+<pre>
+	"require": {
+        "mathiasgrimm/x": "dev-master"
+    }
+</pre>
+
+[Packagist](https://packagist.org/packages/mathiasgrimm/x)
+
+
+Thanks
+Mathias Grimm
+
 
 
 
