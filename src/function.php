@@ -126,8 +126,11 @@ function xd()
 }
 
 /**
+ * debug data for json-handler chrome/firefox plugin 
+ * Firefox https://addons.mozilla.org/en-US/firefox/addon/json-handle/reviews/
+ * Chrome  
+ * 
  * @param mixed ...$args
- *
  */
 function j()
 {
