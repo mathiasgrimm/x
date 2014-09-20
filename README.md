@@ -4,9 +4,9 @@ X
 
 * X is a replacement for the common php print_r/var_dump debug approach
 
-* X provide convinient way to debug in live environments
+* X provide convenient way to debug in live environments
 
-* ** X is plug and play. Install now using composer **
+* X is plug and play. Install now using composer
 
 
 Usage
