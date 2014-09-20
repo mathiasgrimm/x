@@ -1,8 +1,12 @@
 X
 =
-X is a collection of php functions to quickly debug php while working with web or cli (command line interface)
+* X is a collection of php functions to quickly debug php while working with web or cli (command line interface)
 
-X is a replacement for the common php print_r/var_dump debug approach
+* X is a replacement for the common php print_r/var_dump debug approach
+
+* X provide convinient way to debug in live environments
+
+* ** X is plug and play. Install now using composer **
 
 
 Usage
@@ -94,7 +98,8 @@ In general, live environments are hard to debug, however X makes it less terribl
 Lets say you want to debug the Login page of your website while not displaying anything different for a million public users
 that are currently using your site.
 
-In general you need a way to say that you are in a debug environment somehow. Either by having an alternative entry point or a url switch.
+In general you need a way to say that you are in a debug environment somehow. Either by having an alternative entry point, a url switch or any other way.
+
 In this case I will assume you have 2 entry points. index.php and index2.php
 index2.php will allow debug verbosity
 
