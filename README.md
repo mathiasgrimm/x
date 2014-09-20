@@ -164,9 +164,5 @@ add the following to your project composer.json
 
 
 Thanks
+
 Mathias Grimm
-
-
-
-
-
