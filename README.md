@@ -131,6 +131,7 @@ new mathiasgrimm\x\X(IS_DEBUG);
 <?php
 // LoginController.php
 class LoginController
+{
 // ...
 
     public function loginAction($username, $password)
@@ -144,6 +145,7 @@ class LoginController
         // X
         xd($_SESSION);
     }
+}
 ?>
 ```
 
