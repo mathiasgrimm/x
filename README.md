@@ -9,6 +9,7 @@ Usage
 =====
 ```php
 <?php
+new mathiasgrimm\x\X();
 
 // common php
 echo "<pre>";
@@ -47,3 +48,40 @@ xd($_REQUEST, $_POST);
 
 ```
 
+Example
+-------
+```php
+$aLang = array(
+   'PHP',
+   'Java',
+   'JavaScript'
+);
+
+x(1, 2, 3, $aLang);
+
+```
+
+will print:
+
+<pre>
+DEBUG X
+File: /Users/mathiasgrimm/Google Drive/projects/github/x/test/XTest.php
+Line: 15
+
+ARG [0]
+1
+
+ARG [1]
+2
+
+ARG [2]
+3
+
+ARG [3]
+Array
+(
+    [0] => PHP
+    [1] => Java
+    [2] => JavaScript
+)
+</pre>

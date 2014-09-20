@@ -6,6 +6,10 @@
  */
 use mathiasgrimm\x\X;
 
+/**
+ * @param mixed ...$args
+ * 
+ */
 function x()
 {
     if (!X::getDebug()) {
@@ -60,6 +64,10 @@ function x()
     echo "{$sNl}{$sNl}";
 }
 
+/**
+ * @param mixed ...$args
+ *
+ */
 function xd()
 {
     if (!X::getDebug()) {
@@ -117,6 +125,10 @@ function xd()
     die();
 }
 
+/**
+ * @param mixed ...$args
+ *
+ */
 function j()
 {
     if (!X::getDebug()) {
