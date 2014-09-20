@@ -1,8 +1,8 @@
 X
 =
-X is collection of php functions to quickly debug php while working with web or cli (command line interface)
+X is a collection of php functions to quickly debug php while working with web or cli (command line interface)
 
-X is a replacement for the common php print_r/var_dump debug
+X is a replacement for the common php print_r/var_dump debug approach
 
 
 Usage
@@ -20,6 +20,8 @@ echo "</pre>";
 // X
 x($GLOBAS, $_POST, $_GET);
 
+// ------------------------------------
+
 // common php
 echo "<pre>";
 foreach ($_FILES as $file) {
@@ -31,6 +33,8 @@ echo "</pre>";
 foreach ($_FILES as $file) {
     x($file);
 }
+
+// ------------------------------------
 
 // common php
 echo "<pre>";
