@@ -47,7 +47,7 @@ function x()
         }
         
         echo "ARG [$iIdx] {$sNl}";
-        print_r($aArg);
+        var_dump($aArg);
         
         if (!$bCli) {
             echo "</div>";
@@ -107,7 +107,7 @@ function xd()
         }
         
         echo "ARG [$iIdx] {$sNl}";
-        print_r($aArg);
+        var_dump($aArg);
         
         if (!$bCli) {
             echo "</div>";
