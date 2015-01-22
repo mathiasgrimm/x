@@ -31,6 +31,6 @@ class X
     
     public static function registerFunctions()
     {
-        require 'function.php';
+        require_once 'function.php';
     }
 }
