@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4" : {
-            "mathiasgrimm\\x\\" : "src/"
+            "MathiasGrimm\\X\\" : "src/"
         }
     }
 }

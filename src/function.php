@@ -4,7 +4,7 @@
  *
  * @author Mathias Grimm <mathiasgrimm@gmail.com>
  */
-use mathiasgrimm\x\X;
+use mathiasgrimm\X\X;
 
 /**
  * @param mixed ...$args
