@@ -11,7 +11,7 @@ Usage
 =====
 ```php
 <?php
-new mathiasgrimm\x\X();
+new MathiasGrimm\X\X();
 
 // common php
 echo "<pre>";
@@ -108,7 +108,7 @@ index2.php will allow debug verbosity
 define('IS_DEBUG', false);
 
 // initialize X
-new mathiasgrimm\x\X(IS_DEBUG);
+new MathiasGrimm\X\X(IS_DEBUG);
 
 // ...
 
@@ -119,7 +119,7 @@ new mathiasgrimm\x\X(IS_DEBUG);
 define('IS_DEBUG', true);
 
 // initialize X
-new mathiasgrimm\x\X(IS_DEBUG);
+new MathiasGrimm\X\X(IS_DEBUG);
 
 // ...
 
