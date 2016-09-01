@@ -1,6 +1,6 @@
 {
     "name": "mathiasgrimm/x",
-    "description": "quick debug for web and cli environment",
+    "description": "Quick debug for web and cli environment",
     "keywords": ["debug"],
     "homepage": "https://github.com/mathiasgrimm/x/",
     "type": "library",
