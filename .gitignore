@@ -9,3 +9,6 @@
 .settings
 .buildpath
 test
+.idea
+/vendor
+composer.lock
