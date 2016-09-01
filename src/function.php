@@ -253,7 +253,7 @@ if (!function_exists('pd')) {
             }
 
             echo "ARG [$iIdx] {$sNl}";
-            var_dump($aArg);
+            print_r($aArg);
 
             if (!$bCli) {
                 echo "</div>";
