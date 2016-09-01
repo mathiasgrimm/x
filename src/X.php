@@ -4,7 +4,7 @@
  *
  * @author Mathias Grimm <mathiasgrimm@gmail.com>
  */
-namespace mathiasgrimm\x;
+namespace MathiasGrimm\X;
 
 class X
 {
